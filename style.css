@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+body{
+    background-image:url(https://images8.alphacoders.com/786/786545.jpg);
+    background-position-x: -200px;
+    background-position-y: -275px;
+}
+
+.titre{
+    width: 195px;
+    margin: auto;
+}
+
+#title{
+    height: 100px;
+    font-size: 50px;
+    font-family: 'Concert One', cursive;
+    color:greenyellow;
+}
+
+/* Formulaire pseudo */
+
+.form-user{
+    margin: auto;
+    width: 450px;
+    background: #fff;
+    padding: 30px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+.form-user .input-data{
+    height: 40px;
+    width: 100%;
+    position: relative;
+}
+.form-user .input-data input{
+    height: 100%;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid rgb(1, 179, 31);
+}
+
+.form-user .input-data input:focus ~ label,
+.form-user .input-data input:valid ~ label{
+    transform: translateY(-20px);
+    font-size: 15px;
+}
+
+.form-user .input-data label{
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    pointer-events: none;
+    transition: all 0.3s ease;
+}
+
+.form-message{
+    position: fixed;
+    margin: auto;
+    width: 100%;
+    left: 250px;
+    bottom: 0;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+#message{
+    width: 65%;
+    height: 45px;
+    font-size: 18px;
+    border: none;
+    border-bottom: 3px solid rgb(1, 179, 31);
+}
+
+.envoi{
+    display: inline-block;
+    box-shadow: none;
+    appearance: none;
+    border: 0;
+    outline: 0;
+    background-color: rgb(0, 240, 168);
+    height: 60px;
+    line-height: 42px;
+    padding: 0 30px;
+    font-size: 20px;
+    border-radius: 30px;
+    color: rgb(40, 45, 50);
+    cursor: pointer;
+    transition: all .5s;
+    transition-timing-function: cubic-bezier(.2, 3, .4, 1);
+    user-select: none;
+}
+
+/* Bouton login */
+
+.btn-login{
+
+    position: relative;
+    top: calc(75% - 22px);
+    width: 100%;
+    text-align: center;
+}
+  
+.btn{
+    display: inline-block;
+    box-shadow: none;
+    appearance: none;
+    border: 0;
+    outline: 0;
+    background-color: rgb(0, 240, 168);
+    height: 60px;
+    line-height: 42px;
+    padding: 0 30px;
+    font-size: 20px;
+    border-radius: 30px;
+    color: rgb(40, 45, 50);
+    cursor: pointer;
+    transition: all .5s;
+    transition-timing-function: cubic-bezier(.2, 3, .4, 1);
+    user-select: none;
+}
+/* Bouton login */
+
+/* Bouton Inscription */
+.btn-inscription{
+
+    position: relative;
+    top: calc(75% - 22px);
+    width: 100%;
+    text-align: center;
+}
+  
+.btn{
+    display: inline-block;
+    box-shadow: none;
+    appearance: none;
+    border: 0;
+    outline: 0;
+    background-color: rgb(0, 240, 168);
+    height: 60px;
+    line-height: 42px;
+    padding: 0 30px;
+    font-size: 20px;
+    border-radius: 30px;
+    color: rgb(40, 45, 50);
+    cursor: pointer;
+    transition: all .5s;
+    transition-timing-function: cubic-bezier(.2, 3, .4, 1);
+    user-select: none;
+}
+
+.btn-ajout{
+
+    position: relative;
+    top: calc(75% - 22px);
+    width: 100%;
+    text-align: center;
+}
+  
+.btn{
+    display: inline-block;
+    box-shadow: none;
+    appearance: none;
+    border: 0;
+    outline: 0;
+    background-color: rgb(0, 240, 168);
+    height: 60px;
+    line-height: 42px;
+    padding: 0 30px;
+    font-size: 20px;
+    border-radius: 30px;
+    color: rgb(40, 45, 50);
+    cursor: pointer;
+    transition: all .5s;
+    transition-timing-function: cubic-bezier(.2, 3, .4, 1);
+    user-select: none;
+}
+
+.btn-contact{
+
+    position: absolute;
+    top: calc(85% - 22px);
+    width: 100%;
+    text-align: center;
+}
+
+.btn{
+    display: inline-block;
+    box-shadow: none;
+    appearance: none;
+    border: 0;
+    outline: 0;
+    background-color: rgb(0, 240, 168);
+    height: 60px;
+    line-height: 42px;
+    padding: 0 30px;
+    font-size: 20px;
+    border-radius: 30px;
+    color: rgb(40, 45, 50);
+    cursor: pointer;
+    transition: all .5s;
+    transition-timing-function: cubic-bezier(.2, 3, .4, 1);
+    user-select: none;
+}
+/* Bouton Inscription */
+
+/* Bouton Activation */
+.btn-activation{
+
+    position: relative;
+    top: calc(75% - 22px);
+    width: 100%;
+    text-align: center;
+}
+  
+.btn{
+    display: inline-block;
+    box-shadow: none;
+    appearance: none;
+    border: 0;
+    outline: 0;
+    background-color: rgb(0, 240, 168);
+    height: 60px;
+    line-height: 42px;
+    padding: 0 30px;
+    font-size: 20px;
+    border-radius: 30px;
+    color: rgb(40, 45, 50);
+    cursor: pointer;
+    transition: all .5s;
+    transition-timing-function: cubic-bezier(.2, 3, .4, 1);
+    user-select: none;
+}
+/* Bouton Activation */
+
+&:hover{
+    transform: scale(1.1, 1.1);
+}
+    
+&:active{
+      transform: scale(1.05, 1.05);
+}
+
+footer{
+    color: white;
+    bottom:30px;
+    margin: 5% auto;
+    text-align: center;
+    
+}
+
+.rectangle{
+    position: fixed;
+    width: 250px;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(21, 218, 218, 0.411);
+    box-shadow: 2px 2px 2px black;
+
+}
+
+p{
+    margin: auto;
+    width: 200px;
+    padding: 10%;
+    background: #fff;
+    box-shadow: 2px 5px 7px rgb(0, 0, 0);
+}
